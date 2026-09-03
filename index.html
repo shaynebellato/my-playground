@@ -19,14 +19,29 @@
     }
     h1 { font-size: 3rem; margin: 0 0 0.5rem; }
     p { font-size: 1.125rem; color: #6e6e73; margin: 0; }
+    .build-info {
+      position: fixed;
+      bottom: 0.75rem;
+      right: 0.75rem;
+      font-size: 0.6875rem;
+      line-height: 1.4;
+      text-align: right;
+      color: #b0b0b5;
+      opacity: 0.7;
+    }
     @media (prefers-color-scheme: dark) {
       body { background: #1d1d1f; color: #f5f5f7; }
       p { color: #a1a1a6; }
+      .build-info { color: #6e6e73; }
     }
   </style>
 </head>
 <body>
   <h1>Hello, world!</h1>
   <p>My first web page.</p>
+  <footer class="build-info">
+    v0.1.0<br>
+    Built 2026-09-03 22:01 AEST
+  </footer>
 </body>
 </html>
